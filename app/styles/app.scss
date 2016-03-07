@@ -1,0 +1,35 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.button-div {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 200px;
+  height: 100px;
+}
+
+.actual-button {
+  margin: 0 auto;
+  width: 200px;
+  height: 100px;
+}
+
+.actual-button p {
+  vertical-align: middle;
+  text-align: center;
+}
